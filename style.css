@@ -9,11 +9,6 @@
   margin: 0;
 }
 
-html,
-body {
-  height: max(600px, 100vh);
-}
-
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -53,9 +48,10 @@ body {
   background-color: var(--clr-light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-
-  display: flex;
-  flex-direction: column;
+  height: max(600px, 100vh);
+  min-width: 375px;
+  display: grid;
+  place-content: center;
 }
 
 a {
@@ -66,12 +62,6 @@ a {
 a:hover,
 a:focus {
   color: var(--clr-grey);
-}
-
-.main {
-  height: 100vh;
-  display: grid;
-  place-content: center;
 }
 
 .card {
