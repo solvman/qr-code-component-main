@@ -47,21 +47,11 @@ img {
 body {
   background-color: var(--clr-light-gray);
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   height: max(600px, 100vh);
   min-width: 375px;
   display: grid;
   place-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: var(--clr-dark-navy);
-}
-
-a:hover,
-a:focus {
-  color: var(--clr-grey);
 }
 
 .card {
@@ -92,10 +82,4 @@ a:focus {
   color: var(--clr-grey);
   text-align: center;
   padding: 0 1rem;
-}
-
-.attribution {
-  text-align: center;
-  text-decoration: none;
-  color: var(--clr-grey);
 }
