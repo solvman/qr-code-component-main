@@ -48,7 +48,7 @@ body {
   background-color: var(--clr-light-gray);
   font-family: "Outfit", sans-serif;
   font-size: 0.9375rem;
-  height: max(600px, 100vh);
+  height: max(497px, 100vh);
   min-width: 375px;
   display: grid;
   place-content: center;
